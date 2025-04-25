@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Ankit Gaikwad</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1e293b;
+      color: rgb(247, 236, 236);
+    }
+    header {
+      background-color: #0f172a;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    nav a {
+      margin: 0 15px;
+      color: #60a5fa;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #93c5fd;
+    }
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    section:nth-child(odd) {
+      background-color: #1e293b;
+    }
+    section:nth-child(even) {
+      background-color: #334155;
+    }
+    h2 {
+      color: #60a5fa;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    li {
+      background-color: #475569;
+      padding: 15px 30px;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    li:hover {
+      transform: scale(1.05);
+    }
+    .profile-img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 8px solid #60a5fa;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+    }
+    .about-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+    .about-text {
+      max-width: 500px;
+      text-align: left;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.8;
+    }
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ankit Gaikwad</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievement">Achievements</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#goals">Goals</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-img" />
+      <div class="about-text">
+        <p>Hello! I'm Ankit Gaikwad, an engineering student interested in management and coding. I love learning new things and working in teams. I am passionate about using technology to create impactful solutions and grow continuously in my field.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C and C++ Programming</li>
+      <li>Problem Solving</li>
+      <li>Management and Leadership</li>
+      <li>Web Development (HTML, CSS)</li>
+    </ul>
+  </section>
+
+  <section id="achievement">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Completed coding projects in C and C++</li>
+      <li>Participated in hackathons</li>
+      <li>Recognized for leadership in college events</li>
+    </ul>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Singing and listening to music</li>
+      <li>Traveling</li>
+      <li>Watching movies</li>
+      <li>Exploring tech</li>
+    </ul>
+  </section>
+
+  <section id="goals">
+    <h2>Future Goals</h2>
+    <p>I aim to become a successful software developer and solve real-world problems using emerging technologies. Continuous learning and growth are my primary goals as I build a fulfilling career.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Phone: 8788621494</p>
+    <p>Email: <a href="mailto:gaikwadankit1215@gmail.com">gaikwadankit1215@gmail.com</a></p>
+  </section>
+</body>
+</html>
